@@ -1,0 +1,2 @@
+# network_sigma
+Originally just me playing around with using neuronal networks to find a very simple function (random walk probability to go to first to point 100, than to point -100 as function of the starting position), but evolving into an idea of generating sigmas for the output of a neuronal network. This works, by letting the network decide itself what it more certain of, and what it is not (and than using some clever math, aswell as a normalisation)
