@@ -16,7 +16,3 @@ If you have any idea why this could be, I would love to hear from you (Simon.Klu
 
 
 
-"both" is my idea of using this value to normalise the standart deviation of the smarter approach. Sadly, this training becomes really unstable (i guess there are to many parts to the loss function) and is thus not really usable (depending on some loss parameters [there are a lot you can play around with], you can let the errors dissappear, get terrible regressions, or both). On the other hand, if you can train one, this migth work. The last trained version reaches an Chi² between 2-3, which migth not be good, but considering the terrible fit of this version, this seems reasonable for me. Again I cannot really suggest using this, unless you can make the training more stable somehow. 
-
-
-
